@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+body{
+    background-color:  #ccc;
+    overflow-x:hidden ;
+    cursor: default;
+    
+}
+
+.gremio{
+    width: 94vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(0, 16, 240);
+    padding: 5px;
+}
+
+.um{
+    border: 1px solid #000;
+    width: 94vw;
+    height: auto;
+    background-color: #ccc;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   
+    
+    
+}
+
+.um ul{
+    /* width: 40vw; */
+    display: flex;
+    /* align-items: center; */
+    align-items: space-around;
+    list-style: none;
+     
+} 
+.um ul li{
+    padding: 0px 10px 0px 10px; 
+}  
+
+.dois{
+    border: 1px solid #000;
+    width: 94vw;
+    background-color: #bbb;
+    margin: 0px 0px 0px 0.2rem;
+}
+
+.tres{
+    width: 94vw;
+    border: 1px solid #000;
+    margin: 0px 0px 0px 0.2rem;
+    padding: 10px;
+    background-color: #bbb;
+    display: flex;  
+}
+.tres h2{
+    background-color: #eee;
+    border: 1px solid #000;
+    width: 94vw;
+    position: relative;
+    top: -12px;
+    left: -10px;
+}
+.tres select{
+    margin:0px 6rem 0px 1rem;
+    padding: 5rem 0px 0px;
+}
+.quatro{
+    width: 94vw;
+    margin: 0px 0px 0px 0.2rem;
+    padding-left:1rem ;
+    padding-top: 1rem;
+    border: 1px solid #000;
+    background-color: #bbb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.quatro h2{
+    border: 1px solid #000;
+    width: 94vw;
+    background-color: #eee;
+    position: relative;
+    left: -17px;
+    top: -17px;
+}
+#caminho{
+    width: 80vw;
+    margin-bottom: 1rem;
+    margin-left:1rem;
+}
+#natureza{
+    width: 50vw;
+    margin-bottom: 1rem;
+}
+#vencimento{
+    width: 25vw; 
+    margin-bottom: 3rem;
+}
+
+.cinco{
+    width: 94vw;
+    margin: px 0px 0px 0.2rem;
+    padding: 0.8rem;
+    border: 1px solid #000;
+    background-color: #bbb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cinco h2{
+    border: 1px solid #000;
+    width: 94vw;
+    background-color: #eee;
+    position: relative;
+    top:-14px;
+    left: 0px;
+}
+#titulo{
+    width: 80vw;
+}
+#descricao{
+    width: 100vw;
+    display: block;
+}
+textarea{
+    margin: 0px 0px 0px 6rem;
+}
+
+.seis{
+    width: 94vw;
+    border: 1px solid #000;
+    background-color: #eee;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    padding:1px ;
+}
+.seis button{
+    margin: 0.1rem;
+    padding:6px 10px ;
+    padding-right: 40px;
+}
+.seis button img{
+    width: 12px;
+}
